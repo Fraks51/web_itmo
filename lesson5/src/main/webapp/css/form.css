@@ -1,0 +1,45 @@
+/* login-form-box */
+.login-form-box {
+    border: 1px solid var(--border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.login-form-box .header {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--caption-color);
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.login-form-box .field {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+.login-form-box .field .name {
+    width: 11rem;
+    float: left;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.login-form-box .field .value {
+    width: 15rem;
+    float: left;
+}
+
+.login-form-box .field input {
+    width: 100%;
+}
+
+.login-form-box .button-field {
+    margin: 1.5rem;
+    margin-left: 12rem;
+}
+
+.login-form-box .button-field input {
+    padding: 0.1rem 1.5rem;
+}
